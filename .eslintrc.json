@@ -1,0 +1,24 @@
+{
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended", "airbnb"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "script"
+  },
+  "rules": {
+    "operator-linebreak": "off",
+    "arrow-parens": "off",
+    "implicit-arrow-linebreak": "off",
+    "no-plusplus": "off",
+    "no-constant-condition": ["error", { "checkLoops": false }],
+    "object-curly-newline": "off"
+  }
+}
