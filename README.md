@@ -14,6 +14,7 @@ $ npm install @bakeryjs/logger
 
 Create a new logger via Builder:
 
+<!-- prettier-ignore -->
 ```javascript
 const logger = Logger.Builder()
   .disable(level => level === Logger.Levels.DEBUG) // disable only debug messages
