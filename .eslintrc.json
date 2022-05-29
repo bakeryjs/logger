@@ -19,6 +19,7 @@
     "implicit-arrow-linebreak": "off",
     "no-plusplus": "off",
     "no-constant-condition": ["error", { "checkLoops": false }],
-    "object-curly-newline": "off"
+    "object-curly-newline": "off",
+    "func-names": "off"
   }
 }
